@@ -4,6 +4,8 @@ count = 0
 while count < 5:
     print("While Loop Count:", count)
     count += 1  # incrementing count to avoid infinite loop
+else:
+    print("While loop has ended. Final count is:", count)
 
 #here is an example of an infinite loop, which continues indefinitely because the condition is always true
 # Uncomment the following lines to see the infinite loop in action
@@ -21,28 +23,28 @@ while i <= 3:
         j += 1
     i += 1  
 
-#while with for loop
+# #while with for loop
 count = 1
 while count <= 3:
     for letter in ['A', 'B', 'C']:
         print(f"While with For Loop - Count: {count}, Letter: {letter}")
     count += 1
 
-#use a while loop to iterate over a list
+# #use a while loop to iterate over a list
 numbers = [10, 20, 30, 40, 50]
 index = 0
 while index < len(numbers):
     print("Number from list using while loop:", numbers[index])
     index += 1
 
-#use a while loop to iterate over a string
+# #use a while loop to iterate over a string
 text = "CBF"
 index = 0
 while index < len(text):
     print("Character from string using while loop:", text[index])
     index += 1
 
-#using break and continue in while loops
+# #using break and continue in while loops
 num = 0
 while num < 10:
     num += 1
