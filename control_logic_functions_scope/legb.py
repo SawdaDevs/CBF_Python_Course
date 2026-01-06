@@ -33,24 +33,24 @@
 
 
 # Global (G): Variables defined at the top level of a script or module are in the global scope. They can be accessed from any function within the same module.
-global_var = "I am a global variable"
+# global_var = "I am a global variable"
 
 
-def global_scope_example():
-    print(global_var)  # Accessing the global variable
+# def global_scope_example():
+#     print(global_var)  # Accessing the global variable
 
-global_scope_example()  # Output: I am a global variable    
+# global_scope_example()  # Output: I am a global variable    
 
-print(global_var)  # Output: I am a global variable     
+# print(global_var)  # Output: I am a global variable     
 
 
 
 # Built-in (B): These are names that are pre-defined in the Python standard library. They can be accessed from any part of the code.
-def built_in_example():
-    print(len("Hello, World!"))  # Using the built-in len() function        
+# def built_in_example():
+#     print(len("Hello, World!"))  # Using the built-in len() function        
 
-built_in_example()  # Output: 13
-print(global_var)  
+# built_in_example()  # Output: 13
+# print(global_var)  
 
 
 number_one = 10
