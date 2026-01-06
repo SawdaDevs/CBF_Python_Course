@@ -2,8 +2,11 @@
 #allows us to execute a block of code multiple times
 
 # # # for loop
-# for i in range(10):  # iterates from 0 to 9
-#     print("For Loop Iteration:", i)
+for i in range(10):  # iterates from 0 to 9
+    print("For Loop Iteration:", i)
+    
+for i in range(5, 15):  # iterates from 5 to 14
+    print("Second For Loop Iteration:", i)
 
 # # iterating over a list
 # fruits = ["apple", "banana", "cherry", "date", "elderberry", "fig", "grape", "honeydew", "kiwi", "lemon"]
